@@ -12,11 +12,8 @@
 .pokemon-wrapper
 {
     display: flex; 
-    /* flex-direction:row; */
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
-   /* flex-direction:row; */
 }
 
 .buttons{

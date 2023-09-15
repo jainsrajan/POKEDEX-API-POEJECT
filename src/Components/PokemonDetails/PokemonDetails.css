@@ -1,0 +1,17 @@
+.pokemon-nextpage-name{
+    font-size: xx-large;
+    
+}
+
+.pokemon-nextpage-name>span{
+  letter-spacing: 6px;
+}
+
+.pokemon-imagee{
+    height: 200px;
+}
+
+
+.pokemon-details-wrapperrr{
+    margin-top: 10px;
+}

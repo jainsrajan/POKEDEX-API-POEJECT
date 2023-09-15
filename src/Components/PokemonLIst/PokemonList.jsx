@@ -30,7 +30,6 @@ function PokemonList(){
     
      console.log(pokemonData)
 
-
     //Iterating over each pokemon data and extract id,name,image,types..... 
     const res = pokemonData.map((pokeData)=>{
     const pokemon = pokeData.data
@@ -62,7 +61,7 @@ function PokemonList(){
 
     {(isloading)? "Loading....." : 
             
-            pokemonList.map((p)=><Pokemon name={p.name} image={p.image} key={p.id}/>)
+         pokemonList.map((p)=><Pokemon name={p.name} image={p.image} key={p.id} id={p.id}/>)
          }
     </div>
 
