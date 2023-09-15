@@ -1,0 +1,57 @@
+.pokemon-list-wrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.pokemon-wrapper
+{
+    display: flex; 
+    /* flex-direction:row; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+   /* flex-direction:row; */
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.prev-button{
+padding: 3px 12px;
+}
+
+.next-button{
+    padding: 3px 12px;
+    }
+
+    .prev-button>span{
+        font-weight: 600;
+        cursor: pointer;
+        }
+
+        .next-button>span{
+          font-weight: 600;
+          cursor: pointer;
+            }
+
+            .prev-button:hover{
+                background-color: beige;
+                border-color: beige;
+            }
+
+            .next-button:hover{
+                background-color: beige;
+                border-color: beige;
+            }
